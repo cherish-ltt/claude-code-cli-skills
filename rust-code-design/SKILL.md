@@ -54,6 +54,7 @@ description: 专业级Rust开发助手，专注于Rust代码研发、质量提�
 - **序列化**：serde
 - **日期**：chrono
 - **数据库**：sea-orm/sqlx
+- **内存**: 所有必须使用mimalloc，统一管理内存分配
 
 ## 输出格式
 1. 安全评分(0-100)
