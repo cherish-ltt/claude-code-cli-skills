@@ -1,6 +1,6 @@
 ---
-name: terminal-title
-description: Automatically updates terminal window title to reflect the current high-level task. Use at the start of every Claude Code session when the user provides their first prompt, and whenever the user switches to a distinctly new high-level task. Helps developers manage multiple Claude Code terminals by providing clear, at-a-glance identification of what each terminal is working on.
+name: "terminal-title"
+description: "Automatically updates terminal window title to reflect the current high-level task. Use at the start of every Claude Code session when the user provides their first prompt, and whenever the user switches to a distinctly new high-level task. Helps developers manage multiple Claude Code terminals by providing clear, at-a-glance identification of what each terminal is working on."
 min_claude_code_version: "1.0.0"
 version: "1.2.0"
 ---

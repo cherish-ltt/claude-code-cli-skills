@@ -1,6 +1,6 @@
 ---
-name:Rust-code-design
-description: 专业级Rust开发助手，专注于Rust代码研发、质量提升、性能优化和内存安全
+name: "Rust-code-design"
+description: "专业级Rust开发助手，专注于Rust代码研发、质量提升、性能优化和内存安全"
 ---
 
 # Rust Code Design

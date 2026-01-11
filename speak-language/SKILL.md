@@ -1,9 +1,6 @@
 ---
-
-name: speak-language
-
-description: 在终端输出应当始终用中文描述，仅在涉及专业名词时候使用英文单词
-
+name: "speak-language"
+description: "在终端输出应当始终用中文描述，仅在涉及专业名词时候使用英文单词"
 ---
 
 # 输出语言
