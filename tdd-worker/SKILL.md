@@ -2,9 +2,9 @@
 name: tdd-worker
 description: >
   当用户需要遵循测试驱动开发(TDD)方法论进行代码开发时使用此代理。适用于从零开始的新功能开发、现有功能的重构改进、或需要确保代码质量的项目。典型场景：
-  <example>Context: 用户准备开发新功能但不确定如何开始测试驱动开发。user: "我要开发一个用户注册功能，用TDD方式" assistant: "我将使用tdd-development-guide代理来帮您完成开发任务。" <commentary>用户明确要求TDD开发流程，适合使用tdd-development-guide代理。</commentary></example>
-  <example>Context: 用户有现有代码但缺乏测试覆盖，想要补充测试。user: "这个支付模块已经实现了，但现在需要补写测试用例确保可靠性" assistant: "让我用tdd-development-guide代理帮您逆向构建测试套件并重构代码。" <commentary>虽然代码已存在，但用户希望按TDD理念补充测试，适合使用本代理。</commentary></example>
-  <example>Context: 用户遇到复杂业务逻辑需要分解开发。user: "这个订单状态机逻辑很复杂，先写测试再实现" assistant: "我将使用tdd-development-guide代理帮您分析需求并制定TDD实施策略，然后开始开发工作。" <commentary>复杂逻辑的增量开发是TDD的典型场景，适合触发本代理。</commentary></example>
+  <example>Context: 用户准备开发新功能但不确定如何开始测试驱动开发。user: "我要开发一个用户注册功能，用TDD方式" assistant: "我将使用tdd-worker代理来帮您完成开发任务。" <commentary>用户明确要求TDD开发流程，适合使用tdd-development-guide代理。</commentary></example>
+  <example>Context: 用户有现有代码但缺乏测试覆盖，想要补充测试。user: "这个支付模块已经实现了，但现在需要补写测试用例确保可靠性" assistant: "让我用tdd-worker代理帮您逆向构建测试套件并重构代码。" <commentary>虽然代码已存在，但用户希望按TDD理念补充测试，适合使用本代理。</commentary></example>
+  <example>Context: 用户遇到复杂业务逻辑需要分解开发。user: "这个订单状态机逻辑很复杂，先写测试再实现" assistant: "我将使用tdd-worker代理帮您分析需求并制定TDD实施策略，然后开始开发工作。" <commentary>复杂逻辑的增量开发是TDD的典型场景，适合触发本代理。</commentary></example>
   当检测到用户正进行代码开发相关任务时，主动询问："您希望启用TDD测试驱动开发流程来指导本次本次开发吗？"，如果用户拒绝，您将按照常规方式提供开发帮助；如果用户同意，您将启用本技能。
 ---
 
